@@ -27,7 +27,7 @@ class EarningsForProductAndPeriod extends EventQuery
 }
 ```
 
-The first step in implementing an event query is the determine which events should be applied, this is done by querying the events table, and applying every retrieved event. It's important to note that event queries are only a viable solution if you know you've got a limited data set to work with. For example: generating this report for a month or two should be fine, but if you're querying over a period of time that contains millions of events, you'll get in trouble.
+The first step in implementing an event query is to determine which events should be applied, this is done by querying the events table, and applying every retrieved event. It's important to note that event queries are only a viable solution if you know you've got a limited data set to work with. For example: generating this report for a month or two should be fine, but if you're querying over a period of time that contains millions of events, you'll get in trouble.
 
 Here's what the full constructor of our example query looks like:
 

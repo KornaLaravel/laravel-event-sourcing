@@ -73,7 +73,7 @@ The `recordThat` function will not persist the events to the database. It will s
 
 There are two things to notice. First, the method names are written in the present tense, not the past tense. We're trying to do something, and for the rest of our application it hasn't happened yet until the actual `AccountCreated` is saved. This will only happen when the `AccountAggregate` gets persisted.
 
-The second thing to note is that nor the method and the event contain an uuid. The aggregate itself is aware of the uuid to use because it is passed to the retrieve method (`AccountAggregate::retrieve($uuid)`, we'll get to this in a bit). When persisting the aggregateroot, it will save the recorded events along with the uuid.
+The second thing to note is that neither the method nor the event contain an uuid. The aggregate itself is aware of the uuid to use because it is passed to the retrieve method (`AccountAggregate::retrieve($uuid)`, we'll get to this in a bit). When persisting the aggregateroot, it will save the recorded events along with the uuid.
 
 With this in place you can use the aggregate like this:
 
