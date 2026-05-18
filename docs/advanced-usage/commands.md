@@ -58,7 +58,7 @@ class CartItems extends AggregatePartial
 }
 ```
 
-Finally, a command is dispatched on the `CommandBus`, which is registered in Laravel's container, so you can inject is wherever needed:
+Finally, a command is dispatched on the `CommandBus`, which is registered in Laravel's container, so you can inject it wherever needed:
 
 ```php
 class CartController

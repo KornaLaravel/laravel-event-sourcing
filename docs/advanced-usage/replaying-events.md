@@ -42,7 +42,7 @@ If you are [using your own event storage model](/docs/laravel-event-sourcing/v7/
 php artisan event-sourcing:replay --stored-event-model=App\\Models\\AccountStoredEvent
  ```
 
-If you only want to reply events for a specific aggregate only, you can use the `--aggregate-uuid` option.
+If you only want to replay events for a specific aggregate only, you can use the `--aggregate-uuid` option.
 
 ```bash
 php artisan event-sourcing:replay --aggregate-uuid=12345678-1234-1234-1234-1234567890ab
