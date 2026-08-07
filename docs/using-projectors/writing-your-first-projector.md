@@ -426,7 +426,6 @@ public function test_can_have_many_accounts()
 
 We discuss projections and complex patterns such as CQRS in depth in our [Event Sourcing in Laravel](https://event-sourcing-laravel.com/) course. In practice, you want to check out these chapters:
 
-- Chapter 05: Storing and Projecting Events 
-- Chapter 06: [Projectors in Depth](https://event-sourcing-laravel.com/projectors-in-depth)
-- Chapter 14: CQRS
-
+- 07\. Storing and Projecting Events 
+- 08\. [Projectors in Depth](https://event-sourcing-laravel.com/projectors-in-depth)
+- 16\. CQRS

@@ -106,7 +106,7 @@ By default, the event won't be fired on Laravel's event bus. To dispatch events 
 
 Aggregate roots are a crucial part in large applications. Our course, [Event Sourcing in Laravel](https://event-sourcing-laravel.com/) covers them in depth:
 
-- 09. Aggregate Roots
-- 10. State Management in Aggregate Roots
-- 11. Aggregate Partials
-- 12. State Machines with Aggregate Partials
+- 11\. Aggregate Roots
+- 12\. State Management in Aggregate Roots
+- 14\. State Machines with Aggregate Entities
+- 21\. Partial Event Sourcing

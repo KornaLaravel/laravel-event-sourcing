@@ -88,7 +88,7 @@ class CartAggregateRoot extends AggregateRoot
 
 Our course, [Event Sourcing in Laravel](https://event-sourcing-laravel.com/) covers aggregate roots and partials in depth:
 
-- 9. Aggregate Roots
-- 10. State Management in Aggregate Roots
-- 11. Aggregate Partials
-- 12. State Machines with Aggregate Partials
+- 11\. Aggregate Roots
+- 12\. State Management in Aggregate Roots
+- 14\. State Machines with Aggregate Entities
+- 21\. Partial Event Sourcing

@@ -81,5 +81,5 @@ class CartController
 
 Commands can be a very useful tool in complex applications. Our course, [Event Sourcing in Laravel](https://event-sourcing-laravel.com/) covers them in depth:
 
-- 13. The Command Bus
-- 14. CQRS
+- 15\. The Command Bus
+- 16\. CQRS
