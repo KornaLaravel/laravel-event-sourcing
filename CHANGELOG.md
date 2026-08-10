@@ -2,6 +2,14 @@
 
 All notable changes to `laravel-event-sourcing` will be documented in this file:
 
+## 7.15.1 - 2026-08-10
+
+- Allow `phpdocumentor/reflection-docblock` 6, fixing installation on Laravel 13 / Symfony 8 by @freekmurze in https://github.com/spatie/laravel-event-sourcing/pull/535
+
+Fixes #534.
+
+**Full Changelog**: https://github.com/spatie/laravel-event-sourcing/compare/7.15.0...7.15.1
+
 ## 7.15.0 - 2026-02-22
 
 ### What's Changed
@@ -658,6 +666,7 @@ When registering projectors and reactors via class name strings, container resol
 
 
 
+
 ```
 ## 6.0.0 - 2021-??-??
 
@@ -670,6 +679,7 @@ When registering projectors and reactors via class name strings, container resol
 
 -    public function handle(StoredEvent $event);
 +    public function handle(StoredEvent $storedEvent): void;
+
 
 
 
@@ -1027,6 +1037,7 @@ class MyProjector extends Projector
 
 
 
+
 ```
 Note that `__invoke` in projectors and reactors works the same way, it's automatically registered based on the type hinted event.
 
@@ -1050,6 +1061,7 @@ public function up()
         $table->unique(['aggregate_uuid', 'aggregate_version']);
     });
 }
+
 
 
 
