@@ -115,4 +115,4 @@ $report->totalPrice();
 
 Our course, [Event Sourcing in Laravel](https://event-sourcing-laravel.com/) covers event queries in depth:
 
-- 7. Event Queries
+- 09\. Event Queries

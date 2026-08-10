@@ -231,5 +231,5 @@ Note that providing a weight on a queued reactor won't guarantee execution order
 
 Reactors and process managers (which are built on top of the core reactor principle) are thoroughly discussed in [Event Sourcing in Laravel](https://event-sourcing-laravel.com/). More specifically, you want to read these chapters:
 
-- 08. Reactors
-- 15. Sagas
+- 10\. Reactors
+- 17\. Sagas
